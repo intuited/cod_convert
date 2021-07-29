@@ -1,6 +1,6 @@
 ## `cod_convert`
 
-Python module to convert Cockatrice .cod files to more a common deck format.
+Python module to convert Cockatrice `.cod` files to more a common deck format.
 
 Current functionality is very basic and geared toward Commander decks: only the mainboard is extracted.
 
@@ -8,7 +8,7 @@ First install the python lxml module and its dependencies.  E.G. on ubuntu
 
     $ sudo apt install python3-lxml
 
-Clone the repo into e.g. ~/src and run
+Clone the repo into e.g. `~/src` and run
 
     $ python3 ~/src/cod_convert ~/.local/share/Cockatrice/Cockatrice/decks/liesa.cod
     1x Enlightened Tutor
@@ -102,3 +102,5 @@ to copy it to the clipboard (on linux)
     $ python3 ~/src/cod_convert ~/.local/share/Cockatrice/Cockatrice/decks/liesa.cod | pbcopy
 
 should work on Mac.
+
+From there you should be able to paste it into moxfield or whichever site you prefer.
