@@ -1,4 +1,4 @@
-## `cod_convert`
+## `codpiece`
 
 Python module to convert Cockatrice `.cod` files to more a common deck format.
 
@@ -10,7 +10,7 @@ First install the python lxml module and its dependencies.  E.G. on ubuntu
 
 Clone the repo into e.g. `~/src` and run
 
-    $ python3 ~/src/cod_convert ~/.local/share/Cockatrice/Cockatrice/decks/liesa.cod
+    $ python3 ~/src/codpiece ~/.local/share/Cockatrice/Cockatrice/decks/liesa.cod
     1x Enlightened Tutor
     1x Demonic Tutor
     1x Vampiric Tutor
@@ -95,11 +95,11 @@ Clone the repo into e.g. `~/src` and run
 
 or, for convenience,
 
-    $ python3 ~/src/cod_convert ~/.local/share/Cockatrice/Cockatrice/decks/liesa.cod | xclip -selection clipboard
+    $ python3 ~/src/codpiece ~/.local/share/Cockatrice/Cockatrice/decks/liesa.cod | xclip -selection clipboard
 
 to copy it to the clipboard (on linux)
 
-    $ python3 ~/src/cod_convert ~/.local/share/Cockatrice/Cockatrice/decks/liesa.cod | pbcopy
+    $ python3 ~/src/codpiece ~/.local/share/Cockatrice/Cockatrice/decks/liesa.cod | pbcopy
 
 should work on Mac.
 
